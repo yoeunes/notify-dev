@@ -1,6 +1,22 @@
 {
     "type": "project",
     "license": "proprietary",
+    "repositories": [
+        {
+            "type":"path",
+            "url": "../notify",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type":"path",
+            "url": "../notify-toastr",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
     "require": {
         "php": "^7.2.5",
         "ext-ctype": "*",
@@ -9,9 +25,12 @@
         "symfony/dotenv": "5.0.*",
         "symfony/flex": "^1.3.1",
         "symfony/framework-bundle": "5.0.*",
-        "symfony/yaml": "5.0.*"
+        "symfony/yaml": "5.0.*",
+        "yoeunes/notify": "dev-stamps",
+        "yoeunes/notify-toastr": "dev-master"
     },
     "require-dev": {
+        "symfony/maker-bundle": "^1.14"
     },
     "config": {
         "preferred-install": {
