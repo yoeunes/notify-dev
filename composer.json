@@ -27,7 +27,8 @@
         "symfony/framework-bundle": "5.0.*",
         "symfony/yaml": "5.0.*",
         "yoeunes/notify": "dev-stamps",
-        "yoeunes/notify-toastr": "dev-master"
+        "yoeunes/notify-toastr": "dev-master",
+      "ext-json": "*"
     },
     "require-dev": {
         "symfony/maker-bundle": "^1.14"
